@@ -1,0 +1,42 @@
+Assignment 3: Function Design and Modularization - Create a document that describes the design of two modular functions: one that returns the factorial of a number, and another that calculates the nth Fibonacci number. Include pseudocode and a brief explanation of how modularity in programming helps with code reuse and organization.
+
+Function 1: Factorial Calculation
+
+ Declare n and i as integer variable.  
+ Initialize i=1.
+ Enter the value of n.  
+ Check whether n>0, if not then i=1.  
+ If yes then, i=i*n  
+ Decrease the value of N by 1 .  
+ Repeat step 4 and 5 until n=0.
+ Now print the value of i.  
+
+Explanation:
+The factorial of a non-negative integer n, denoted as n!, is the product of all positive integers less than or equal to n. In the pseudocode, we check if n is 0 or 1, in which case the factorial is 1. Otherwise, we recursively calculate the factorial by multiplying n with the factorial of n−1.
+
+Function 2: Fibonacci Calculation
+
+Function Fibonacci: n
+Declare a,b
+Set a=0,b=1
+
+While the number of terms is less than n
+         c=a+b
+         Display c
+         Set a=b, b=c
+End function
+
+Explanation:
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. The sequence starts with 0 and 1. In the pseudocode, we recursively calculate the Fibonacci number by summing the two preceding Fibonacci numbers until we reach the base cases n=0 or n=1, where the Fibonacci number is equal to n itself.
+
+Modularity in Programming:
+
+Modularity in programming refers to the practice of breaking down a program into separate, manageable, and reusable modules or functions. This approach offers several benefits:
+
+Code Reusability: Modular functions can be reused in different parts of the program or in other programs altogether. For example, the factorial function or the Fibonacci function designed above can be reused in various contexts without the need to rewrite the logic.
+
+Ease of Maintenance: Modular code is easier to maintain because each module is focused on a specific task. If there is a bug or a need for improvement, developers can focus on the relevant module without affecting other parts of the program.
+
+Improved Readability: Modular code is easier to read and understand as it promotes a clear separation of concerns. Each module encapsulates a specific functionality, making the codebase more comprehensible for developers.
+
+Scalability: Modular design allows for easy scalability as new functionalities can be added by creating new modules or extending existing ones. This facilitates the development of large and complex software systems.
