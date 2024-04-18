@@ -1,1 +1,15 @@
 
+ Start
+
+ Display "Enter a number:"
+ Read num
+
+ if (num%2==0) then
+    square = num * num
+    Display "The square of " + num + " is " + square
+ else
+    cube = num * num * num
+    Display "The cube of " + num + " is " + cube
+ end if
+
+ End
