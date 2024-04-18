@@ -1,1 +1,16 @@
+Assignment 1: Write a detailed pseudocode for a simple program that takes a number as input, calculates the square if it's even or the cube if it's odd, and then outputs the result. Incorporate conditional and looping constructs.
 
+ Start
+
+ Display "Enter a number:"
+ Read num
+ declare square and cube 
+ if (num%2==0) then
+    square = num * num
+    Display "The square of " + num + " is " + square
+ else
+    cube = num * num * num
+    Display "The cube of " + num + " is " + cube
+ end if
+
+ End
